@@ -57,7 +57,7 @@ spec:
         app: springapp
     spec:
       imagePullSecrets:
-        - name: ecr-secret
+        - name: ecr-secret2
       containers:
       - name: springappcontainer
         image: 412381781771.dkr.ecr.us-east-1.amazonaws.com/spring-boot-mongo:IMAGE_TAG_PLACEHOLDER
