@@ -58,7 +58,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: vkrishna8/spring-boot-app:IMAGE_TAG_PLACEHOLDER
+        image: awssandy/spring-mongo:1
         ports:
         - containerPort: 8080
         env:
